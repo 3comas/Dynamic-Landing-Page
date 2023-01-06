@@ -32,7 +32,7 @@ var getRndInteger = (min, max) => {
   return Math.floor(Math.random() * (max - min)) + min;
 };
 
-// randomWidth();
+ randomWidth();
 
 var interval = setInterval(() => {
   randomWidth();
